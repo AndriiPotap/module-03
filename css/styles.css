@@ -1,0 +1,90 @@
+html {
+    box-sizing: border-box;
+}
+
+*, 
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.navigation {
+    padding: 76px 0 104px 0;
+    text-align: center;
+}
+
+.menu_navigation li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    margin-right: 70px;
+}
+.style_lifestyle {
+    color: #03a9f4;
+}
+a {
+    text-decoration: none;
+    color: #626262;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.under_image {
+    text-transform: uppercase;
+    color: #c8c3b8;
+    padding: 30px 0;
+}
+
+.name_text {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 43px;
+    color: #626262;
+}
+
+.main_text {
+    font-family: 'Myriad Pro';
+    font-size: 14px;
+    line-height: 1.714;
+    color: #626262;
+    
+}   
+
+.section_1,.section_2,.section_3,.section_4,.section_5,.section_6 {
+    display: inline-block;
+    width: 420px;
+    margin: 0;
+    padding: 0;
+}
+
+.section_1,.section_3,.section_5 {
+    margin-right: 56px;
+}
+
+.section_1,.section_2,.section_3,.section_4 {
+    margin-bottom: 136px;
+}
+
+.loadmore_buttom {
+    width: 164px;
+    height: 60px;
+    font-size: 20px;
+    background-color: white;
+    border-color: #626262;
+    color: #626262;
+    border-width: thin;
+}
+.mb{
+    text-align: center;
+    padding: 58px 0 70px 0;    
+}
+
+  
